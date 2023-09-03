@@ -3,7 +3,7 @@
     name="model" />
   <param
     name="robot_description"
-    textfile="$(find ODR_Description)/urdf/ODR_Description.urdf" />
+    textfile="$(find aws_amr_description)/urdf/aws_amr_description.urdf" />
   <node
     name="joint_state_publisher_gui"
     pkg="joint_state_publisher_gui"
@@ -16,5 +16,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find ODR_Description)/urdf.rviz" />
+    args="-d $(find aws_amr_description)/urdf.rviz" />
 </launch>
